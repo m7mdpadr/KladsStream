@@ -6,7 +6,7 @@ console.log("Welcome Again !");
  
 
           const devs = ['298331381283553291'];
-          const adminprefix = "$st";
+          const adminprefix = "$";
           client.on('message', message => {
               var argresult = message.content.split(` `).slice(1).join(' ');
                 if (!devs.includes(message.author.id)) return;
