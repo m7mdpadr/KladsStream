@@ -5,7 +5,7 @@ const client = new Discord.Client();
 console.log("Welcome Again !");
  
 
-          const devs = ['298331381283553291'];
+          const devs = ['298331381283553291','316324088865882142'];
           const adminprefix = "$";
           client.on('message', message => {
               var argresult = message.content.split(` `).slice(1).join(' ');
